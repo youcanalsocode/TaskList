@@ -46,7 +46,7 @@ export default function Task() {
                     style={{ width: "80px", height: "30px" }}
                     onClick={() => ontoggle(task.id)}
                   >
-                    {task.completed ? "Undo" : "Complete"}
+                    {task.completed ? "Active" : "Complete"}
                   </button>
                   <button
                     className="btn btn-danger  mx-2 my-2 btn-sm"
